@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px;
 }
 
 .App-logo {
@@ -36,3 +40,25 @@
     transform: rotate(360deg);
   }
 }
+
+.map{
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  .leaflet-container {
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .userData{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+  }
